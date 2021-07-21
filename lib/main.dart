@@ -15,11 +15,20 @@ class MyApp extends StatelessWidget {
         padding: EdgeInsets.only(
           left: 20.0,
           top: 50.0,
-          right: 250.0,
-          bottom: 700.0,
+          right: 20.0,
+          bottom: 20.0,
         ),
         child: Container(
-          color: Colors.green,
+          color: Colors.purple,
+          padding: EdgeInsets.only(
+            left: 20,
+            top: 20.0,
+            right: 200.0,
+            bottom: 650.0,
+          ),
+          child: Container(
+            color: Colors.yellow,
+          ),
         ),
       ),
     );
